@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Catch Vaccine Game</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="screen">
+        <h1>จับวัคซีน</h1>
+        <button class="btn" id="start-btn">เริ่มเกม</button>
+      </div>
+
+      <div class="screen">
+        <h1>เลือกวัคซีน</h1>
+        <ul class="vacine-list">
+          <li>
+            <button class="choose-vacine-btn">
+              <p>Fizer</p>
+              <img
+                src="https://github.com/Thiraphat-DEV/JAVASCRIPT-PROJECT/blob/main/js42%20gameChanger/css/1fizer-removebg-preview.png?raw=true"
+                alt="Fizer"
+              />
+            </button>
+          </li>
+          <li>
+            <button class="choose-vacine-btn">
+              <p>Astra</p>
+              <img
+                src="https://github.com/Thiraphat-DEV/JAVASCRIPT-PROJECT/blob/main/js42%20gameChanger/css/astra-removebg-preview.png?raw=true"
+                alt="Astra"
+              />
+            </button>
+          </li>
+          <li>
+            <button class="choose-vacine-btn">
+              <p>Jansen</p>
+              <img
+                src="https://github.com/Thiraphat-DEV/JAVASCRIPT-PROJECT/blob/main/js42%20gameChanger/css/jansen-removebg-preview.png?raw=true"
+                alt="Jansen"
+              />
+            </button>
+          </li>
+          <li>
+            <button class="choose-vacine-btn">
+              <p>Moderna</p>
+              <img
+                src="https://github.com/Thiraphat-DEV/JAVASCRIPT-PROJECT/blob/main/js42%20gameChanger/css/moderna-removebg-preview.png?raw=true"
+                alt="Moderna"
+              />
+            </button>
+          </li>
+        </ul>
+      </div>
+
+      <div class="screen game-container" id="game-container">
+        <h3 id="time" class="time">Time: 00:00</h3>
+        <h3 id="score" class="score">Score: 0</h3>
+        <h5 id="message" class="message"></h5>
+      </div>
+    </div>
+    <script src="./vaccine.js"></script>
+  </body>
+</html>
